@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".SellerPageActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/nameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="আপনার নাম " />
+
+    <EditText
+        android:id="@+id/phoneEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="আপনার ফোন নম্বর " />
+
+    <EditText
+        android:id="@+id/productNameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="আপনার পণ্যের নাম " />
+    <EditText
+        android:id="@+id/productPriceEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="আপনার পণ্যের নাম  দাম" />
+
+    <EditText
+        android:id="@+id/productQuantEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="আপনার পণ্যের পরিমাণ  " />
+
+    <EditText
+        android:id="@+id/distrNameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="আপনার জেলার নাম " />
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/imageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        app:srcCompat="@drawable/gellary_pic" />
+    <Button
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:id="@+id/uploadButtonId"
+        android:text="আপলোড"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:text="জমা দিন"
+        android:id="@+id/submitButtonId"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

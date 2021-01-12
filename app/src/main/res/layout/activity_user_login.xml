@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#D8628A"
+    tools:context=".UserLoginActivity">
+    <ImageView
+        android:src="@drawable/user_login_pic"
+        android:id="@+id/ImageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/loginTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="প্রবেশ করুন"
+        android:textSize="50dp"
+        />
+    <EditText
+        android:id="@+id/PhoneNumberEditTextId"
+        android:layout_width="365dp"
+        android:layout_height="59dp"
+        android:layout_margin="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="ফোন নাম্বার"
+        android:inputType="textEmailAddress"
+        android:paddingTop="25dp"
+        android:textColorHint="#151715" />
+    <EditText
+        android:id="@+id/PassEditTextId"
+        android:layout_width="365dp"
+        android:layout_height="59dp"
+        android:layout_margin="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="পাসওয়ার্ড"
+        android:inputType="textEmailAddress"
+        android:paddingTop="25dp"
+        android:textColorHint="#151715" />
+    <Button
+        android:background="#4ECC53"
+        android:textAllCaps="false"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/loginButtonId"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:text="প্রবেশ করুন"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="আপনি নিবন্ধিত না? নিবন্ধন করুন "
+        android:id="@+id/signUpTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

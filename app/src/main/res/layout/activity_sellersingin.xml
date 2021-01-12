@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_google_signin_btn_text_dark_disabled"
+    tools:context=".SellersinginActivity">
+    <ImageView
+        android:id="@+id/imageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/loginicon" />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/loginTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="প্রবেশ করুন"
+        android:textSize="50dp"
+        />
+
+
+    <EditText
+        android:id="@+id/emailEditTextId"
+        android:layout_width="384dp"
+        android:layout_height="59dp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="আপনার ইমেইল  লিখুন"
+        android:inputType="textEmailAddress"
+        android:paddingTop="5dp"
+        android:textColorHint="#151715"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/passEditTextId"
+        android:layout_width="384dp"
+        android:layout_height="59dp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="আপনার পাসওয়ার্ড লিখুন"
+        android:inputType="textEmailAddress"
+        android:paddingTop="5dp"
+        android:textColorHint="#151715"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/login1ButtonId"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="80dp"
+        android:background="#8BC34A"
+        android:text="প্রবেশ করুন"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="আপনি নিবন্ধিত না? নিবন্ধন করুন "
+        android:id="@+id/signUpTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

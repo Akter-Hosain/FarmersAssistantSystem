@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#009688"
+    android:padding="3dp"
+    tools:context=".AgricultureActivity1">
+
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan1ButtonId"
+        android:text="আধুনিক বোরো ধানের চাষ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan2ButtonId"
+        android:text="বোরো ধানের পরিচর্যা, রোগ নির্ণয় ও ফলন বাড়ানোর উপায়"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan3ButtonId"
+        android:text="বোরো ধানের চারা লাগানো"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan4ButtonId"
+        android:text="বোরো ধানের বালাই ব্যবস্থাপনা"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan5ButtonId"
+        android:text="আমন ধানে সার ব্যবস্থাপনা ও অধিক ফলনে করণীয়"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan6ButtonId"
+        android:text="ধানের পোকা দমনে ভেষজ কীটনাশক"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan7ButtonId"
+        android:text="হাইব্রিড ধান চাষ পদ্ধতি"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan8ButtonId"
+        android:text="ধানের বীজ সংরক্ষণ কৌশল"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan9ButtonId"
+        android:text="আমন ধানে পোকার আক্রমণ ও প্রতিকার"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Dhan10ButtonId"
+        android:text="খরা সহিষ্ণু ধান"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

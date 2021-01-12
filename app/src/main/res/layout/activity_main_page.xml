@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#EFBABA"
+    tools:context=".MainPageActivity">
+
+    <ImageView
+        android:id="@+id/imageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:src="@drawable/fornt_pic" />
+
+    <Button
+        android:id="@+id/sellButtonId"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="80dp"
+        android:background="#8BC34A"
+        android:text="পণ্য বিক্রি করুন"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/buyButtonId"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="80dp"
+        android:background="#8BC34A"
+        android:text="পণ্য ক্রয় করুন"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

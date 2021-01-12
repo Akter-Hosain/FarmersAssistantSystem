@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E49BECEF"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+   <ImageView
+
+       android:id="@+id/imageViewId"
+       android:layout_width="match_parent"
+       android:layout_height="232dp"
+       android:src="@drawable/fornt_pic" />
+
+   <Button
+       android:id="@+id/AdminButtonId"
+       android:textStyle="bold"
+       android:textSize="20dp"
+       android:textAllCaps="false"
+       android:text="এডমিন"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <Button
+       android:id="@+id/SellerButtonId"
+       android:textStyle="bold"
+       android:textSize="20dp"
+       android:textAllCaps="false"
+       android:text="@string/seller_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+<Button
+       android:id="@+id/CustomerButtonId"
+       android:textStyle="bold"
+       android:textSize="20dp"
+       android:textAllCaps="false"
+       android:text="@string/customer_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+<Button
+      android:id="@+id/AgricultureButtonId"
+       android:textStyle="bold"
+       android:textSize="20dp"
+       android:textAllCaps="false"
+       android:text="@string/agriculture_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
